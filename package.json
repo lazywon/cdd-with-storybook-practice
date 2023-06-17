@@ -1,6 +1,6 @@
 {
   "name": "cdd-with-storybook-wanted-practice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "원티드 프리온보딩 챌린지 / 스토리북과 함께하는 컴포넌트 주도 개발",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
