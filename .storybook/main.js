@@ -2,7 +2,7 @@
 const config = {
   stories: [
     "../src/components/**/*.mdx",
-    "../src/components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/components/**/*.stories.@(js|jsx)",
   ],
   addons: [
     "@storybook/addon-links",
@@ -10,7 +10,7 @@ const config = {
     "@storybook/addon-interactions",
   ],
   framework: {
-    name: "@storybook/react-vite",
+    name: "@storybook/react-webpack5",
     options: {},
   },
   docs: {
